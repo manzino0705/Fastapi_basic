@@ -1,7 +1,7 @@
 # Fastapi_basic
 
 ### FastAPI 기본 구조 Study 
-<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="300" height="">
+<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png">
 <br>
 
 ### 초기 setting 
