@@ -26,3 +26,10 @@ uvicorn main:app --reload   # --reload : 파일 변경시, 감지해서 재시�
 ```
 
 <br><br>
+
+### DB ( MySQL ) 연결 
+```python 
+pip install SQLAlchemy
+pip install pymysql
+```
+database -> models -> schemas 순서로 정의 
