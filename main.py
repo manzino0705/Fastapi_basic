@@ -11,7 +11,7 @@ app = FastAPI() # 서버 인스턴스 생성
 '''
 
 @app.get("/")
-def read_root():
+def root():
     return {"Hello": "World"} 
 
 # 경로 매개변수 지정 

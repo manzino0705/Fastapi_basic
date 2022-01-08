@@ -1,6 +1,5 @@
 # Fastapi_basic
 
-### FastAPI 기본 구조 Study 
 <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png">
 <br>
 
@@ -14,15 +13,16 @@ python -m pip install --upgrade pip
 
 **2. fast api 설치** <br>
 ```python
-pip install fastapi <br>
-pip install uvicorn<br>
+pip install fastapi
+pip install "uvicorn[standard]"
 ```
 
 **3. fast api 실행** <br>
 ```python
 uvicorn main:app --reload   # --reload : 파일 변경시, 감지해서 재시작 
 -> http://127.0.0.1:8000 으로 바로 접근 가능
--> http://127.0.0.1:port/docs : 자동 대화형 API 설명서
+-> http://127.0.0.1:port/docs : automatic interactive API docs
+-> http://127.0.0.1:8000/redoc : Alternative API docs
 ```
 
 <br><br>
